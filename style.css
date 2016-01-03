@@ -1,40 +1,44 @@
-
-
-* {
-    font-family: 'Shadows Into Light Two';
-    font-size: 16px;
-    background-color: #53777a;
-}
-
 body {
-    padding: 0, 50px, 0, 50px;
+    padding: 0, 50px, 50px, 50px;
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 
 h1 {
-    font-family: 'Amatic SC';
-    font-size: 80px;
+    font-family: 'Megrim', sans-serif;
+    font-size: 120px;
     font-weight: bold;
     font-stretch: expanded;
+    text-shadow: 2px 2px #0a0a0a;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: -20px;
-    color: #ddbd2e;
+    color: #D6a731;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 36px;
     font-style: italic;
     text-align: center;
-    color: #83af9b;
-    margin-top: -20px;
+    color: #555b6e;
+    margin-top: -15px;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 30px;
     font-weight: bold;
     padding-left: 20px;
-    margin-bottom: -15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: #555b6e;
+
 }
 
 h3:hover {
@@ -45,33 +49,32 @@ h4 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: -15px;
+
 }
 
-
 td {
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 20px ;
-    margin-top: -20px;
+    margin-top: -15px;
+    color: #3c3744;
 }
 
 img {
     margin: 12px;
-}
-
-p {
-
+    border-radius: 20px;
 }
 
 #header {
-    height: 100px;
+    height: 150px;
     width: auto;
     clear: both;
+    margin-top: -15px;
     margin-bottom: 20px;
 }
 
 section#left {
     margin: 0px 20px 10px 20px;
-    width: 63%;
+    width: 60%;
 }
 
 section#right {
@@ -80,7 +83,7 @@ section#right {
     margin-right: 50px;
     padding-left: 20px;
     padding-top: -20px;
-    color: #542437;
+    color: #193661;
     display: inline-block;
 }
 
@@ -89,6 +92,10 @@ section#right {
 }
 #right {
     float: right;
+}
+
+#breathingRoom {
+    height: 20px;
 }
 
 .hidden {
@@ -106,5 +113,5 @@ section#right {
 
 a {
     text-decoration: none;
-    color: #542437;
+    color: #d6a731;
 }

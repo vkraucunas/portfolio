@@ -5,6 +5,6 @@ $(document).ready(function() {
   })
 
   $('h3').on('click', function() {
-      $(this).closest('div').find('.excessive').slideToggle();
+      $(this).closest('div').find('.excessive').slideToggle('slow');
   })
 })
