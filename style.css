@@ -29,10 +29,9 @@ aside {
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 50px;
-    padding-left: 20px;
-    padding-top: -20px;
+    padding: -20px 20px 20px 0;
     color: #193661;
-    display: inline-block;
+    float: left;
     height: 800px;
 }
 
